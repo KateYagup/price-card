@@ -1,0 +1,80 @@
+@import 'price-card.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+}
+
+.price-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    background: #141B1C;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.first {
+    background: #5BB189;
+
+
+    &__checked {
+        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+    }
+}
+
+.second {
+    background: #3A6BA5;
+
+    &__checked {
+        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+    }
+}
+
+
+.third {
+    background: #EC632A;
+
+    &__checked {
+        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+
+    }
+}
+
+.popular {
+    width: 122px;
+    height: 123px;
+    position: absolute;
+    top: -18px;
+    right: -18px;
+
+    // border: 2px solid green;
+
+    &__inner {
+        clip-path: polygon(17% 0, 82% 0, 100% 100%, 0 100%);
+        position: absolute;
+        top: 47px;
+        right: -12px;
+
+        height: 25px;
+        line-height: 25px;
+        width: 143px;
+
+        text-transform: uppercase;
+        background: #DC3F45;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+
+        transform: rotate(45deg);
+    }
+}
+
+.business {
+    padding-top: 2px;
+}

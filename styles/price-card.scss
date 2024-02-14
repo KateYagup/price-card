@@ -1,0 +1,125 @@
+.price-card {
+    width: 380px;
+    height: 770px;
+    margin-right: 18px;
+    background: #334247;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 1px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &__top {
+        width: 100px;
+        height: 64px;
+        color: #FFFFFF;
+        margin: 33px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__top-title {
+        margin: 0;
+        font-size: 35px;
+        display: inline-block;
+    }
+
+    &__top-paragaph {
+        margin: 0;
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    &__price {
+        width: 380px;
+        height: 105px;
+        margin: 0;
+
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 105px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__description {
+        margin: 40px 27px 40px 26px;
+        text-align: center;
+
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0px;
+    }
+
+    &__options-list {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+    }
+}
+
+
+
+// ul {
+//     padding-left: 0;
+//     margin: 0;
+// }
+
+li {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    list-style-type: none;
+    color: #FFFFFF;
+    width: 380px;
+    height: 50px;
+
+    &:nth-child(odd) {
+        background: #2A3438;
+    }
+}
+
+.cheked {
+    width: 15px;
+    height: 13px;
+    display: inline-block;
+
+    margin-top: 18px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.order {
+    &__button {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-top: 39px;
+        width: 154.63px;
+        height: 40px;
+
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+        border-radius: 20px;
+        border-width: 0;
+    }
+}
