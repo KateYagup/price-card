@@ -98,6 +98,7 @@ li:nth-child(odd) {
   color: #FFFFFF;
   border-radius: 20px;
   border-width: 0;
+  cursor: pointer;
 }
 
 * {

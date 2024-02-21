@@ -2,7 +2,7 @@
 
 ### [Site link](https://kateyagup.github.io/price-card/)
 
-Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
+Layout supports desktop versions
 
 ### The tech stack is:
 
