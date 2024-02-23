@@ -2,7 +2,7 @@
 
 ### [Site link](https://kateyagup.github.io/price-card/)
 
-Layout supports desktop versions
+Project Price cards
 
 ### The tech stack is:
 
