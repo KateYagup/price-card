@@ -1,8 +1,6 @@
-# Layout Sample Project
+# Project Price cards
 
 ### [Site link](https://kateyagup.github.io/price-card/)
-
-Project Price cards
 
 ### The tech stack is:
 
