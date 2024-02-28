@@ -101,6 +101,8 @@ li {
 
 .order {
     &__button {
+
+        cursor: pointer;
         font-family: Montserrat;
         font-size: 14px;
         font-weight: 400;
@@ -122,6 +124,6 @@ li {
         border-radius: 20px;
         border-width: 0;
 
-        cursor: pointer;
+
     }
 }

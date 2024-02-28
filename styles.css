@@ -81,6 +81,7 @@ li:nth-child(odd) {
 }
 
 .order__button {
+  cursor: pointer;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
@@ -98,7 +99,6 @@ li:nth-child(odd) {
   color: #FFFFFF;
   border-radius: 20px;
   border-width: 0;
-  cursor: pointer;
 }
 
 * {
