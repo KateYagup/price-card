@@ -19,33 +19,6 @@ html {
     min-height: 100vh;
 }
 
-.first {
-    background: #5BB189;
-
-
-    &__checked {
-        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
-    }
-}
-
-.second {
-    background: #3A6BA5;
-
-    &__checked {
-        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
-    }
-}
-
-
-.third {
-    background: #EC632A;
-
-    &__checked {
-        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
-
-    }
-}
-
 .popular {
     width: 122px;
     height: 123px;
@@ -71,8 +44,4 @@ html {
 
         transform: rotate(45deg);
     }
-}
-
-.business {
-    padding-top: 2px;
 }
