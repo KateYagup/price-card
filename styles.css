@@ -67,8 +67,7 @@
   padding-left: 0;
   margin: 0;
 }
-
-li {
+.price-card__options-list li {
   font-size: 15px;
   font-weight: 300;
   line-height: 50px;
@@ -79,21 +78,15 @@ li {
   width: 380px;
   height: 50px;
 }
-li:nth-child(odd) {
+.price-card__options-list li:nth-child(odd) {
   background: #2A3438;
-}
-
-check-icon_orange {
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
 }
 
 .check-icon {
   width: 15px;
   height: 13px;
   display: inline-block;
-  margin-top: 18px;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin: 18px 22px 0 22px;
 }
 .check-icon_green {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
